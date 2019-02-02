@@ -1,0 +1,52 @@
+:root{
+  --main-bg-color:#383e47;
+}
+
+body {
+  background: var(--main-bg-color);
+  color: #fff;
+
+}
+a {
+  color: inherit;
+}
+
+h2, h3 {
+  position: relative;
+  font-family: 'Comfortaa', cursive;
+}
+
+div {
+  background: #445e84;
+  padding: 10px;
+  border-color: #000000;
+  margin: 20px;
+  border: 5px solid #000000;
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  box-shadow: 5px 5px 0px #424242;
+  border: 1px solid #ccc;
+}
+
+.study {
+  width: 250px;
+}
+
+.workexperience{
+  width: 250px;
+}
+
+.proyectexperience{
+  width: 250px;
+}
+
+.interests{
+  width: 250px;
+}
