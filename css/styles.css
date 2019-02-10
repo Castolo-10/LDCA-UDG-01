@@ -7,46 +7,47 @@ body {
   color: #fff;
 
 }
+header {
+  background-color: #25354f;
+  color: #e0e1e2;
+}
+
 a {
   color: inherit;
+}
+
+h1 {
+  margin: 20px;
 }
 
 h2, h3 {
   position: relative;
   font-family: 'Comfortaa', cursive;
+  color: #2b3f5e;
 }
 
 div {
-  background: #445e84;
-  padding: 10px;
-  border-color: #000000;
+  background: #e0e1e2;
+  /* padding: 10px; */
+  /* border-color: #000000; */
   margin: 20px;
-  border: 5px solid #000000;
-  display: inline-block;
-  font-size: 12px;
+  /* border: 5px solid #000000; */
+  /* display: inline-block; */
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
+  color: #2b3f5e;
+}
+
+.line{
+  color: #000000;
 }
 
 .picture {
   width: 200px;
   height: 200px;
-  border-radius: 15%;
-  box-shadow: 5px 5px 0px #424242;
-  border: 1px solid #ccc;
-}
-
-.study {
-  width: 250px;
-}
-
-.workexperience{
-  width: 250px;
-}
-
-.proyectexperience{
-  width: 250px;
-}
-
-.interests{
-  width: 250px;
+  border-radius: 50%;
+  margin: 10px;
+  border-color: #000000;
+  /* box-shadow: 5px 5px 0px #424242; */
+  border: 5px solid #ccc;
 }
