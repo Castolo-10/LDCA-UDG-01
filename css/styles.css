@@ -23,7 +23,7 @@ h1 {
 h2, h3 {
   position: relative;
   font-family: 'Comfortaa', cursive;
-  color: #000000;
+  color: #2b3f5e;
 }
 
 div {
@@ -33,13 +33,13 @@ div {
   margin: 20px;
   /* border: 5px solid #000000; */
   /* display: inline-block; */
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Roboto', sans-serif;
-  color: #000000;
+  color: #2b3f5e;
 }
 
-footer {
-  margin: 0px;
+.line{
+  color: #000000;
 }
 
 .picture {
@@ -50,20 +50,4 @@ footer {
   border-color: #000000;
   /* box-shadow: 5px 5px 0px #424242; */
   border: 5px solid #ccc;
-}
-
-.study {
-  width: 250px;
-}
-
-.workexperience{
-  width: 250px;
-}
-
-.proyectexperience{
-  width: 250px;
-}
-
-.interests{
-  width: 250px;
 }
